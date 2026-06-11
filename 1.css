@@ -1,2 +1,12 @@
-*[style*="background-image: url(/img/sparkels"]{background-image:unset!important}
-i[title*="donor"],[title="Donor"],img[title="Custom user icon"]{display:none}
+*[style*="sparkels"] {
+    background-image: none !important;
+}
+
+img[title="Custom user icon"] {
+    display: none !important;
+}
+
+i[title="Donor"],
+i[title="Lifetime donor"] {
+    display: none !important;
+}
